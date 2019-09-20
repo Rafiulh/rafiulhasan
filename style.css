@@ -1,0 +1,123 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    background: lightgray;
+    
+}
+.navbar{
+    font-size: 18px;
+}
+header{
+    background:linear-gradient(#fc2828,black)  #fc2828;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+.user-box{
+     top: 50%;
+    left: 50%; transform:translate(-50%,-50%);
+    position: absolute;
+}
+.user-box img{
+   border-radius: 50%;
+    width: 250px;
+    border: 2px solid #6caed5;
+}
+.logo{
+    width: 50px;
+}
+.profile {
+    height: 400px;
+}
+
+
+.profile{ 
+    height: 400px;
+}
+
+.progress{
+    border-radius: 16px;
+    background: gray;
+}
+.dropdown-content{
+    display:none;
+    position: absolute;
+  
+  
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+background:lightgray;
+}
+
+.dropdown-content a:hover{
+    color:blue;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.img-fluid{
+   margin-top: -50px;
+    
+    
+}
+.education {
+    background: linear-gradient(rgba(70, 76, 96, 0.8), rgba(70, 76, 96, 0.5)),
+        url(images/ayubhena.jpg) no-repeat fixed;
+    background-size: cover;
+    color: #FFFFF9;
+    padding: 30px;
+
+}
+.card{
+    border-radius: 0;
+    box-shadow: 5px 5px 15px #e74c3c;
+    transition: all 0.3 ease-in;
+    
+}
+.card:hover{
+    background: #e74c3c;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px #9E9E9E;
+    
+}
+i{
+    font-size: 26px;
+    color: #555;
+    padding: 5px
+}
+
+footer{
+    color: white;
+    background: black;
+}
+hr{
+    border: 1px solid #d5d5d5;
+    
+ 
+    
+}
+
+
+
+
+
+
+
+
